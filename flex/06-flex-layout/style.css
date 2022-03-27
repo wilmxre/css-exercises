@@ -39,12 +39,17 @@ input {
   align-items: center;
   justify-content: center;
   flex: 1 0 auto;
+  gap: 18px;
 }
 
 .header, .footer {
   display: flex;
   justify-content: space-between;
   padding: 12px;
+}
+
+.footer {
+  background-color: #eee;
 }
 
 .left-links, .right-links {
@@ -58,5 +63,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgba(31, 30, 30, 0.829);;
+  color: rgb(61, 61, 61);
+}
+
+.buttons {
+  display: flex;
+  gap: 12px;
+  padding: 8px;
 }
